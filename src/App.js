@@ -1,16 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Todo from './features/Todo/index.jsx'
+import Album from './features/Album/index.jsx'
+import Counter from './features/Counter/index.jsx'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Phat
-        </p>
-
-      </header>
+      <Todo />
     </div>
   );
 }

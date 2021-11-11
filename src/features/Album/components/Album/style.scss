@@ -1,0 +1,12 @@
+.album {
+    text-align: center;
+    .thumbnail {
+        img {
+            width: 200px;
+            border-radius: 10%;
+        }
+    }
+    .title {
+        font-weight: bold;
+    }
+}

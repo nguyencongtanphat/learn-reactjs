@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import TodoList from './components/TodoList/index.jsx'
 import queryString from 'query-string'
-import { useLocation } from 'react-router-dom';
+import {useLocation } from 'react-router-dom';
 
 
 function TodoFeature(props) {
